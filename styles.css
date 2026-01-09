@@ -60,6 +60,7 @@ body {
     padding: 70px 120px 134px 120px;
     background-repeat: no-repeat;
     background-position: 20% top;
+    box-sizing: border-box;
     
 }
 .banner-content{
@@ -83,6 +84,7 @@ body {
 .banner-content h1{
     font-size: 80px;
     color: #FFFFFF;
+    margin-bottom: 0px;
     
 }
 .banner-content p{
@@ -135,4 +137,67 @@ body {
 }
 #green-icon{
     color: #469165;
+}
+
+.notes{
+    max-width: 100%;
+    max-height: 448px;
+    border: 1px solid black;
+    padding: 0px 120px 120px 120px;
+    margin-bottom: 44px;
+}
+.notes-header{
+    margin-top: 50px;
+    text-align: center;
+}
+.notes-header h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0px;
+}
+.notes-header p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+}
+.notes-ideas{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.notes-card{
+    max-height: 300px;
+    max-width: 322px;
+    /* border: 1px solid black; */
+    padding: 24px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.notes-card-image{
+    background-color: #F95555;
+    color: #FFFFFF;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    /* padding: 20px */
+    box-sizing: border-box;
+    padding: 15px;
+    display: block; 
+    object-fit: contain;
+    margin: 0 auto 16px auto;
+}
+.notes-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.notes-card p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    margin-bottom: 16px;
 }
