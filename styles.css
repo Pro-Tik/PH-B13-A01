@@ -4,7 +4,8 @@ body {
 }
 .nav-container{
     display: flex;
-    height: 92px;
+    
+    max-height: 92px;
     max-width: 100%;
     padding:16px 120px;
     justify-content: space-between;
