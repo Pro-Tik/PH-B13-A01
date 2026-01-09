@@ -1,0 +1,138 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+.nav-container{
+    display: flex;
+    height: 92px;
+    max-width: 100%;
+    padding:16px 120px;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    /* border: 1px solid black; */
+}
+.nav-options-ul ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-container img{
+    height: 41px;
+    width: 91px;
+}
+.nav-options a{
+    font-size: 16px;
+    text-decoration: none;
+    color: inherit;
+}
+.btn{
+    height: 44px;
+    width: auto;
+    background-color: #469165;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    border: 0;
+    padding: 12px 16px;
+    border-radius: 4px;
+    display: flex;
+    
+}
+.btn-build{
+    height: 52px;
+    width: auto;
+    background-color: #469165;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    border: 0;
+    padding: 12px 16px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.banner-image{
+    height: 674px;
+    max-width: 100%;
+    /* border: 1px solid black; */
+    background-image: url("./assets/hero-bg.png");
+    padding: 70px 120px 134px 120px;
+    background-repeat: no-repeat;
+    background-position: 20% top;
+    
+}
+.banner-content{
+    /* border: 1px solid red; */
+    padding-top: 40px;
+    height: 379px;
+    max-width: 1360px;
+    text-align: center;
+    
+    /* background-size: cover; */
+    
+    
+}
+
+.btn img{
+    margin-left: 10px;
+}
+
+
+
+.banner-content h1{
+    font-size: 80px;
+    color: #FFFFFF;
+    
+}
+.banner-content p{
+    color: #FFFFFF;
+    line-height: 24px;
+    font-size: 18px;
+}
+.green-span{
+    color: #30B868;
+}
+.early-access{
+    background-color: #FFFFFF;
+    max-height: 40px;
+    max-width: 229px;
+    border-radius: 1000px;
+    padding: 4px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 16px auto;
+    color: #469165;
+    
+}
+.banner-content .early-access-para{
+    font-size: 16px;
+    color: #469165;
+    margin-left: 6px;
+}
+.banner-btn-container{
+    display: flex;
+    
+    max-height: 52px;
+    max-width: 465px;
+    margin: 0 auto;
+}
+.works-btn{
+    height: 52px;
+    max-width: 198px;
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 12px 16px;
+    border: 1px solid white;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600px;
+}
+.works-btn i{
+    margin-right: 10px;
+    
+}
+#green-icon{
+    color: #469165;
+}
