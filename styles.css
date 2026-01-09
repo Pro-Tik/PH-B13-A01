@@ -277,6 +277,7 @@ body {
 .think-more-clearly-contents{
     background-color: #F7F6F2;
     padding: 80px 40px;
+    border-radius: 12px;
 }
 .think-more-clearly-contents h1{ 
     font-size: 40px;
